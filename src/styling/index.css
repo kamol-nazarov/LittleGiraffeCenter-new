@@ -1,0 +1,760 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: "Anybody", cursive;
+}
+
+.loader:empty {
+  position: absolute;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  width: 6em;
+  height: 6em;
+  border: 1.1em solid rgba(0, 0, 0, 0.2);
+  border-left: 1.1em solid #000000;
+  border-radius: 50%;
+  animation: load8 2.5s infinite linear;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-one-links {
+  color: #a85751;
+  padding: 7px;
+  transition: all 0.2s ease-in;
+}
+
+.nav-one-links:hover {
+  background-color: #a85751;
+  color: #f4eea9;
+}
+
+.eachbutton-col {
+  transition: all 0.2s ease;
+  padding: 10px;
+}
+
+.eachbutton-col:hover {
+  background-color: #a85751;
+}
+
+.eachbutton-col:hover .eachbutton-item {
+  color: #f4eea9;
+}
+
+.eachbutton-item {
+  color: #a85751;
+  width: fit-content;
+  margin: auto;
+}
+
+.article-item {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  font-size: 13px;
+  background-color: #a85751;
+  color: #f4eea9;
+  border: none;
+}
+
+.article-item:hover {
+  background-color: #f4eea9;
+  color: #a85751;
+}
+
+.dropdown-menu {
+  background-color: #a85751;
+  border-radius: 0px;
+  width: 230px !important;
+}
+
+.carousel-caption {
+  background-color: white;
+  width: fit-content;
+  margin-left: 660px !important;
+  margin-bottom: 170px;
+  transition: all 0.2s ease-in;
+}
+
+.carousel-caption:hover {
+  background-color: #a85751;
+  color: #f4eea9;
+}
+
+.carousel-caption:hover .carousel-caption-title {
+  color: #f4eea9;
+}
+
+.carousel-caption:hover .carousel-caption-desc {
+  color: #f4eea9;
+}
+
+.carousel-item {
+  height: fit-content;
+}
+
+.carousel-caption-title {
+  color: #a85751;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.carousel-caption-desc {
+  color: #a85751;
+  font-size: 25px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.carousel-caption-button {
+  font-size: 30px;
+  background-color: #a85751;
+  border: none;
+  color: #f4eea9;
+  margin-bottom: 30px !important;
+  margin-top: 30px;
+  transition: all 0.2s ease-in;
+}
+
+.carousel-caption-button:hover {
+  background-color: #f4eea9;
+  color: #a85751;
+}
+
+.carousel-control-next-icon {
+  color: #a85751 !important;
+}
+
+.age-body {
+  text-align: center;
+}
+
+.age-title {
+  font-size: 13px !important;
+  color: #a85751;
+}
+
+.age-card {
+  border: none;
+  transition: all 0.2s ease-in;
+  background-color: #f4eea9;
+}
+
+.age-card:hover {
+  background-color: #a85751;
+  transform: translatey(-15px) rotate(-2deg) scale(1.1) !important;
+}
+
+.age-card:hover .age-title {
+  color: #f4eea9;
+  font-size: larger;
+}
+
+.age-image {
+  height: 50px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.articles-card {
+  border: none;
+  transition: all 0.2s ease-in;
+}
+
+.articles-body {
+  text-align: center;
+}
+
+.articles-title {
+  font-size: 13px !important;
+  color: #a85751;
+}
+
+.articles-card {
+  border: none;
+  transition: all 0.2s ease-in;
+  background-color: #f4eea9;
+}
+
+.articles-card:hover {
+  background-color: #a85751;
+  transform: translatey(-15px) rotate(-2deg) scale(1.1) !important;
+}
+
+.articles-card:hover .articles-title {
+  color: #f4eea9;
+  font-size: larger;
+}
+
+.articles-image {
+  height: 50px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.registerlogin-title {
+  font-size: 20px !important;
+  font-weight: 400;
+  color: #f4eea9;
+}
+
+.registerlogin-button {
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 0;
+  border: none;
+  background-color: #f4eea9;
+  color: #f15025;
+  margin-bottom: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.registerlogin-button:hover {
+  background-color: #f15025;
+  color: #f4eea9;
+}
+
+.registerlogin-subtext {
+  font-size: 12px;
+  color: #f4eea9;
+}
+
+.footer-button {
+  width: 20%;
+  font-size: 10px;
+  margin: auto;
+  background-color: #a85751;
+  border: none;
+}
+
+.footer-button:hover {
+  background-color: #f4eea9;
+  color: #a85751;
+}
+
+.whychoose-image {
+  padding: 10px !important;
+}
+
+.whychoose-card {
+  background-color: #a85751;
+  border: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.whychoose-cardtitle {
+  font-size: 22px !important;
+  color: #f4eea9;
+  transition: all 0.5s ease-in-out;
+}
+
+.location-div {
+  background-color: #f4eea9;
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.location-div:hover {
+  background-color: #f15025;
+  scale: 1.05;
+}
+
+.location-div:hover .location,
+.location-div:hover .location-hour-list {
+  color: #f4eea9;
+}
+
+.location {
+  font-size: 30px;
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+  color: #a85751;
+}
+
+.location-hour-list {
+  list-style: none;
+  padding-bottom: 20px;
+  transition: all 0.5s ease-in-out;
+  color: #a85751;
+}
+
+.map {
+  height: 90%;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: -50px;
+  transition: all 0.5s ease-in-out;
+  border-radius: 30px;
+}
+
+.contactus-card {
+  background-color: #a85751;
+  margin: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.contactus-card:hover {
+  background-color: #f4eea9;
+  scale: 1.1;
+}
+
+.contactus-card:hover .contactus-card-title,
+.contactus-card:hover .contactus-card-desc {
+  color: #a85751;
+}
+
+.contactus-card-img {
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.contactus-card-title {
+  font-size: 30px;
+  font-weight: 400;
+  color: #f4eea9;
+}
+
+.contactus-card-desc {
+  font-size: 20px;
+  color: #f4eea9;
+  margin-bottom: 30px;
+}
+
+.form-label {
+  font-size: 30px;
+  color: #a85751;
+}
+
+#nav-row-one {
+  background-color: #f4eea9;
+  height: 50px;
+}
+
+#nav-one {
+  width: 50%;
+  margin: auto;
+}
+
+#nav-one-navitem {
+  margin-top: 13px;
+  color: #a85751;
+}
+
+#login-link {
+  margin-right: 5px;
+}
+
+#register-link {
+  margin-left: 5px;
+}
+
+#navbar-logo {
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -30px;
+}
+
+#nav-row-two {
+  width: 50%;
+  margin: auto;
+}
+
+#nav-row-three {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#navlinks-row {
+  margin: auto;
+}
+
+#carousel {
+  background-color: #f4eea9;
+}
+
+#agerange-row,
+#articles-row {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+#age-title-row {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  background-color: #f4eea9;
+}
+
+#age-title-div {
+  padding: 30px;
+  background-color: #a85751;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+#age-title-div:hover {
+  background-color: #f4eea9;
+}
+
+#age-title-div:hover #age-title {
+  color: #a85751;
+  border-bottom: 3px #a85751 solid;
+}
+
+#age-title {
+  font-size: 40px;
+  margin: auto;
+  color: #f4eea9;
+}
+
+#homepagebody-container {
+  background-color: #f4eea9;
+  padding-bottom: 60px;
+}
+
+#registerlogin-row {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f15025;
+}
+
+#registerlogin-row-title {
+  font-size: 40px;
+  width: fit-content;
+  margin: auto;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #f4eea9;
+}
+
+#registerlogin-title-row {
+  margin: auto;
+}
+
+#registerlogin-buttons-row {
+  margin: auto;
+  text-align: center;
+}
+
+#footer-container {
+  text-align: center;
+  background-color: #a85751;
+  padding-bottom: 20px;
+}
+
+#footer-row-one {
+  width: 30%;
+  margin: auto;
+}
+
+#footer-text {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+#aboutus-container {
+  background-color: #f4eea9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#aboutus-row-one {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+#aboutus-row-one-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #a85751;
+  transition: all 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-0px, -1px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-1px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  40% {
+    transform: translate(0px, 0px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 1px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-2px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(2px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(0px, 0px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+}
+
+#aboutus-row-one-title:hover {
+  color: #f15025;
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+#aboutus-row-one-div {
+  background-color: #a85751;
+  margin-bottom: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+#aboutus-row-one-div:hover {
+  transform: scale(1.1);
+  background-color: #f4eea9;
+}
+
+#aboutus-row-one-div:hover #ourjourney-title,
+#aboutus-row-one-div:hover #ourjourney-desc {
+  color: #a85751;
+}
+
+#ourjourney-title {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 30px;
+  color: #f4eea9;
+}
+
+#ourjourney-desc {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #f4eea9;
+}
+
+#ourmission-row {
+  text-align: center;
+}
+
+#ourmission-div {
+  background-color: #a85751;
+  margin-bottom: 50px;
+  transition: all 0.5s ease-in-out;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#ourmission-div:hover {
+  transform: scale(1.1);
+  background-color: #f4eea9;
+}
+
+#ourmission-div:hover #ourmission-title,
+#ourmission-div:hover #ourmission-desc {
+  color: #a85751;
+}
+
+#ourmission-title {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 30px;
+  color: #f4eea9;
+  transition: all 0.5s ease-in-out;
+}
+
+#ourmission-desc {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #f4eea9;
+  transition: all 0.5s ease-in-out;
+}
+
+#whychoose-row {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  background-color: #a85751;
+  padding: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+#whychoose-row:hover {
+  transform: scale(1.05);
+  background-color: #f4eea9;
+}
+
+#whychoose-row:hover .whychoose-card {
+  background-color: #f4eea9;
+}
+
+#whychoose-row:hover #whychoose-row-title,
+#whychoose-row:hover .whychoose-cardtitle {
+  color: #a85751;
+}
+
+#whychoose-row-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #f4eea9;
+  margin-top: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+#whychoose-cards {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+#ourlocations-container {
+  background-color: #f4eea9;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#ourlocations-title {
+  width: fit-content;
+  margin: auto;
+  font-size: 40px;
+  margin-top: 30px;
+  font-weight: 500;
+  color: #a85751;
+  transition: all 0.5s ease-in-out;
+}
+
+#ourlocations-title:hover {
+  color: #f15025;
+  scale: 1.1;
+}
+
+#ourlocations-map-row {
+  width: 60%;
+  margin: auto;
+  background-color: #f15025;
+  transition: all 0.5s ease-in-out;
+}
+
+#contactus-container {
+  text-align: center;
+  background-color: #f4eea9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#contactus-title {
+  font-size: 50px;
+  font-weight: 500;
+  color: #a85751;
+  transition: all 0.5s ease-in-out;
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0);
+  }
+  10% {
+    transform: translate(-10px, 10px);
+  }
+  20% {
+    transform: translate(10px, -10px);
+  }
+  30% {
+    transform: translate(-10px, 10px);
+  }
+  40% {
+    transform: translate(10px, -10px);
+  }
+  50% {
+    transform: translate(0);
+  }
+}
+
+#contactus-title:hover {
+  color: #f4eea9;
+  background-color: #a85751;
+  animation: shake 1s ease-in-out;
+}
+
+#contactus-row-one {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#contactus-row-two {
+  width: 60%;
+  margin: auto;
+}
+
+#form-row-one {
+  margin-bottom: 10px;
+}
+
+#form-row-two {
+  margin-bottom: 10px;
+}
+
+#form-row-three {
+  margin-bottom: 30px;
+}
+
+#contactus-form-button {
+  font-size: 25px;
+  background-color: #a85751;
+  color: #f4eea9;
+  border: none;
+  margin-bottom: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+#contactus-form-button:hover {
+  background-color: #f4eea9;
+  color: #a85751;
+  scale: 1.1;
+}
