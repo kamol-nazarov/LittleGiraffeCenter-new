@@ -344,6 +344,10 @@ a {
   color: #a85751;
 }
 
+.register-label {
+  font-size: 20px;
+}
+
 #nav-row-one {
   background-color: #f4eea9;
   height: 50px;
@@ -756,5 +760,89 @@ a {
 #contactus-form-button:hover {
   background-color: #f4eea9;
   color: #a85751;
+  scale: 1.1;
+}
+
+#register-container {
+  background-color: #f4eea9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#register-row-one {
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0px 0px 10px #000000;
+  border: 1px solid black;
+}
+
+#register-row-one-col-one {
+  background-color: #a85751;
+}
+
+#register-row-one-col-two {
+  background-color: whitesmoke;
+}
+
+#register-title {
+  font-size: 35px;
+  font-weight: 500;
+  color: #a85751;
+  width: fit-content;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#register-form {
+  width: 60%;
+  margin: auto;
+}
+
+#password-formgroup {
+  margin-bottom: 30px;
+}
+
+#register-form-button {
+  font-size: 25px;
+  background-color: #a85751;
+  color: #f4eea9;
+  border: none;
+  margin-bottom: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+#register-form-button:hover {
+  background-color: whitesmoke;
+  color: #a85751;
+  scale: 1.1;
+}
+
+#register-col-one-title {
+  font-size: 40px;
+  width: 60%;
+  margin: auto;
+  margin-top: 130px;
+  font-weight: 500;
+  color: #f4eea9;
+}
+
+#register-col-one-button {
+  font-size: 35px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f4eea9;
+  color: #a85751;
+  border: none;
+  transition: all 0.5s ease-in-out;
+}
+
+#register-col-one-button:hover {
+  background-color: #a85751;
+  color: #f4eea9;
   scale: 1.1;
 }

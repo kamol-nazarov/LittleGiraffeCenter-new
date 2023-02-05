@@ -33,7 +33,7 @@ export default function Header(props) {
               <a href="/#" id="login-link" className="nav-one-links">
                 Login
               </a>
-              <a href="/#" id="register-link" className="nav-one-links">
+              <a href="/register" id="register-link" className="nav-one-links">
                 Register
               </a>
             </p>

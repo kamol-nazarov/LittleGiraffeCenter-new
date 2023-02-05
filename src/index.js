@@ -6,6 +6,7 @@ import HomePage from "./Pages/HomePage";
 import AboutUs from "./Pages/AboutUs";
 import OurLocations from "./Pages/OurLocations";
 import ContactUs from "./Pages/ContactUs";
+import Register from "./Pages/Register";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styling/index.css";
@@ -21,6 +22,7 @@ root.render(
         <Route exact path="/aboutus" element={<AboutUs />} />
         <Route exact path="/ourlocations" element={<OurLocations />} />
         <Route exact path="/contactus" element={<ContactUs />} />
+        <Route exact path="/register" element={<Register />} />
       </Routes>
     </Router>
   </React.StrictMode>

@@ -86,7 +86,7 @@ export default function ContactUsBody(props) {
               />
             </Form.Group>
           </Row>
-          <Button variant="primary" type="submit" id="contactus-form-button">
+          <Button type="submit" id="contactus-form-button">
             Submit
           </Button>
         </Form>
