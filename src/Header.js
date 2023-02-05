@@ -30,7 +30,7 @@ export default function Header(props) {
         <Nav id="nav-one">
           <Nav.Item id="nav-one-navitem">
             <p id="nav-one-links">
-              <a href="/#" id="login-link" className="nav-one-links">
+              <a href="/login" id="login-link" className="nav-one-links">
                 Login
               </a>
               <a href="/register" id="register-link" className="nav-one-links">
