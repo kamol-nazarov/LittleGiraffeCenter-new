@@ -49,7 +49,14 @@ export default function HomePageBody(props) {
               <p className="carousel-caption-desc">
                 Healthy and Concrete Parenting Goals For The Year Ahead
               </p>
-              <Button className="carousel-caption-button">Read More</Button>
+              <Button
+                className="carousel-caption-button"
+                onClick={() => {
+                  window.location.href = "/parentinggoals";
+                }}
+              >
+                Read More
+              </Button>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item className="carousel-item">

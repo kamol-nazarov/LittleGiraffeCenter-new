@@ -9,6 +9,7 @@ import ContactUs from "./Pages/ContactUs";
 import Register from "./Pages/Register";
 import Login from "./Pages/Login";
 import ObesityArticle from "./Pages/ObesityArticle";
+import ParentingGoals from "./Pages/ParentingGoals";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styling/index.css";
@@ -27,6 +28,7 @@ root.render(
         <Route exact path="/register" element={<Register />} />
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/obesityarticle" element={<ObesityArticle />} />
+        <Route exact path="/parentinggoals" element={<ParentingGoals />} />
       </Routes>
     </Router>
   </React.StrictMode>
