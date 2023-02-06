@@ -26,7 +26,14 @@ export default function HomePageBody(props) {
                 Why Not To Wait and See If Kids Grow Out Of This Complex,
                 Chronic Disease
               </p>
-              <Button className="carousel-caption-button">Read More</Button>
+              <Button
+                className="carousel-caption-button"
+                onClick={() => {
+                  window.location.href = "/obesityarticle";
+                }}
+              >
+                Read More
+              </Button>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item className="carousel-item">
@@ -253,14 +260,28 @@ export default function HomePageBody(props) {
         <Row id="registerlogin-buttons-row">
           <Col className="registerlogin-col">
             <p className="registerlogin-title">New To Little Giraffe Center?</p>
-            <Button className="registerlogin-button">Register</Button>
+            <Button
+              className="registerlogin-button"
+              onClick={() => {
+                window.location.href = "/register";
+              }}
+            >
+              Register
+            </Button>
             <p className="registerlogin-subtext">
               Register now to recieve our e-newsletter.
             </p>
           </Col>
           <Col className="registerlogin-col">
             <p className="registerlogin-title">Already Registered?</p>
-            <Button className="registerlogin-button">Login</Button>
+            <Button
+              className="registerlogin-button"
+              onClick={() => {
+                window.location.href = "/login";
+              }}
+            >
+              Login
+            </Button>
             <p className="registerlogin-subtext">
               Login For Personalized Content
             </p>

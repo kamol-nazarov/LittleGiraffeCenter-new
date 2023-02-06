@@ -348,6 +348,36 @@ a {
   font-size: 20px;
 }
 
+.obesity-div {
+  width: 60%;
+  padding-bottom: 40px;
+}
+
+.obesity-image {
+  width: 35% !important;
+  margin-left: 50px;
+  margin-right: -20px;
+}
+
+.obesity-div-title {
+  font-size: 40px;
+  font-weight: 500;
+  width: 60%;
+  color: whitesmoke;
+  margin: auto;
+  margin-top: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.obesity-div-desc {
+  font-size: 16px;
+  font-weight: 300;
+  width: 70%;
+  margin: auto;
+  color: whitesmoke;
+  transition: all 0.5s ease-in-out;
+}
+
 #nav-row-one {
   background-color: #f4eea9;
   height: 50px;
@@ -930,4 +960,77 @@ a {
   background-color: #a85751;
   color: #f4eea9;
   scale: 1.1;
+}
+
+#obesityarticle-container {
+  background-color: #f4eea9;
+  padding: 40px;
+}
+
+#obesityarticle-row-one {
+  display: flex;
+  background-color: #f15025;
+  width: 60%;
+  margin: auto;
+  transition: all 0.5s ease-in-out;
+}
+
+#obesityarticle-row-one:hover {
+  scale: 1.05;
+}
+
+#obesityarticle-row-one:hover .obesity-div-title,
+#obesityarticle-row-one:hover .obesity-div-desc {
+  color: #f4eea9;
+}
+
+#obesityarticle-title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #a85751;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+#obesityarticle-title:hover {
+  color: #f15025;
+  scale: 1.1;
+}
+
+#obesityarticle-row-two {
+  display: flex;
+  background-color: #f15025;
+  width: 60%;
+  margin: auto;
+  transition: all 0.5s ease-in-out;
+  margin-top: 50px;
+}
+
+#obesityarticle-row-two:hover {
+  scale: 1.05;
+}
+
+#obesityarticle-row-two:hover .obesity-div-title,
+#obesityarticle-row-two:hover .obesity-div-desc {
+  color: #f4eea9;
+}
+
+#obesityarticle-row-three {
+  display: flex;
+  background-color: #f15025;
+  width: 60%;
+  margin: auto;
+  transition: all 0.5s ease-in-out;
+  margin-top: 50px;
+}
+
+#obesityarticle-row-three:hover {
+  scale: 1.05;
+}
+
+#obesityarticle-row-three:hover .obesity-div-title,
+#obesityarticle-row-three:hover .obesity-div-desc {
+  color: #f4eea9;
 }
