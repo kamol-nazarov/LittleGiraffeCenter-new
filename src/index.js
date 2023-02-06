@@ -10,6 +10,7 @@ import Register from "./Pages/Register";
 import Login from "./Pages/Login";
 import ObesityArticle from "./Pages/ObesityArticle";
 import ParentingGoals from "./Pages/ParentingGoals";
+import CardiacArrestArticle from "./Pages/CardiacArrestArticle";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styling/index.css";
@@ -29,6 +30,7 @@ root.render(
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/obesityarticle" element={<ObesityArticle />} />
         <Route exact path="/parentinggoals" element={<ParentingGoals />} />
+        <Route exact path="/cardiacarrest" element={<CardiacArrestArticle />} />
       </Routes>
     </Router>
   </React.StrictMode>

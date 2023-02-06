@@ -355,6 +355,8 @@ a {
 
 .obesity-image {
   width: 35% !important;
+  height: 80%;
+  margin: auto;
   margin-left: 50px;
   margin-right: -20px;
 }
