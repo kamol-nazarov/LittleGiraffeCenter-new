@@ -1,4 +1,4 @@
-import { Container, Row, Nav, Col, NavDropdown } from "react-bootstrap";
+import { Container, Row, Nav, Col } from "react-bootstrap";
 import { useEffect } from "react";
 
 export default function Header(props) {
@@ -99,7 +99,7 @@ export default function Header(props) {
         >
           <p className="eachbutton-item">Make An Appointment</p>
         </Col>
-        <Col className="eachbutton-col">
+        {/* <Col className="eachbutton-col">
           <NavDropdown
             title="Articles"
             id="nav-dropdown"
@@ -121,7 +121,7 @@ export default function Header(props) {
               Health Issues
             </NavDropdown.Item>
           </NavDropdown>
-        </Col>
+        </Col> */}
         <Col
           className="eachbutton-col"
           id="ourlocations-button"

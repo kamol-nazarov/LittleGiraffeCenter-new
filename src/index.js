@@ -11,6 +11,8 @@ import Login from "./Pages/Login";
 import ObesityArticle from "./Pages/ObesityArticle";
 import ParentingGoals from "./Pages/ParentingGoals";
 import CardiacArrestArticle from "./Pages/CardiacArrestArticle";
+import FeverMedicineArticle from "./Pages/FeverMedicineArticle";
+import RSVArticle from "./Pages/RSVArticle";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styling/index.css";
@@ -31,6 +33,8 @@ root.render(
         <Route exact path="/obesityarticle" element={<ObesityArticle />} />
         <Route exact path="/parentinggoals" element={<ParentingGoals />} />
         <Route exact path="/cardiacarrest" element={<CardiacArrestArticle />} />
+        <Route exact path="/fevermedicine" element={<FeverMedicineArticle />} />
+        <Route exact path="/rsv" element={<RSVArticle />} />
       </Routes>
     </Router>
   </React.StrictMode>

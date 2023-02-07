@@ -95,7 +95,14 @@ export default function HomePageBody(props) {
               <p className="carousel-caption-desc">
                 What To Do In Emergency Cases
               </p>
-              <Button className="carousel-caption-button">Read More</Button>
+              <Button
+                className="carousel-caption-button"
+                onClick={() => {
+                  window.location.href = "/fevermedicine";
+                }}
+              >
+                Read More
+              </Button>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item className="carousel-item">
@@ -112,7 +119,14 @@ export default function HomePageBody(props) {
                 Almost All Babies Get RSV Atleast Once Before They Are 2, Some
                 Get Very Sick
               </p>
-              <Button className="carousel-caption-button">Read More</Button>
+              <Button
+                className="carousel-caption-button"
+                onClick={() => {
+                  window.location.href = "/rsv";
+                }}
+              >
+                Read More
+              </Button>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
