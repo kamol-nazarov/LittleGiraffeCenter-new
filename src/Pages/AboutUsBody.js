@@ -36,7 +36,7 @@ export default function AboutUsBody(props) {
             <Card className="whychoose-card">
               <Card.Img
                 variant="top"
-                src="/playtime.svg"
+                src="/icons/playtime.svg"
                 className="whychoose-image"
               />
               <Card.Body className="whychoose-cardbody">
@@ -50,7 +50,7 @@ export default function AboutUsBody(props) {
             <Card className="whychoose-card">
               <Card.Img
                 variant="top"
-                src="/piano.svg"
+                src="/icons/piano.svg"
                 className="whychoose-image"
               />
               <Card.Body className="whychoose-cardbody">
@@ -64,7 +64,7 @@ export default function AboutUsBody(props) {
             <Card className="whychoose-card">
               <Card.Img
                 variant="top"
-                src="/baby-room.svg"
+                src="/icons/baby-room.svg"
                 className="whychoose-image"
               />
               <Card.Body className="whychoose-cardbody">
@@ -78,7 +78,7 @@ export default function AboutUsBody(props) {
             <Card className="whychoose-card">
               <Card.Img
                 variant="top"
-                src="/virtual-class.svg"
+                src="/icons/virtual-class.svg"
                 className="whychoose-image"
               />
               <Card.Body className="whychoose-cardbody">
@@ -92,7 +92,7 @@ export default function AboutUsBody(props) {
             <Card className="whychoose-card">
               <Card.Img
                 variant="top"
-                src="/consulting.svg"
+                src="/icons/consulting.svg"
                 className="whychoose-image"
               />
               <Card.Body className="whychoose-cardbody">

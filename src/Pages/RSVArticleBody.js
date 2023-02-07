@@ -5,7 +5,11 @@ export default function RSVArticleBody(props) {
     <Container fluid id="obesityarticle-container">
       <p id="obesityarticle-title">RSV: When It's More Than A Cold</p>
       <Row id="obesityarticle-row-one">
-        <img src="/rsv_article_image_1.svg" alt="" className="obesity-image" />
+        <img
+          src="/images/rsv_article_image_1.svg"
+          alt=""
+          className="obesity-image"
+        />
         <div className="obesity-div">
           <p className="obesity-div-title">
             Understanding RSV: Symptoms and Causes
@@ -22,7 +26,11 @@ export default function RSVArticleBody(props) {
         </div>
       </Row>
       <Row id="obesityarticle-row-two">
-        <img src="/rsv_article_image_2.svg" alt="" className="obesity-image" />
+        <img
+          src="/images/rsv_article_image_2.svg"
+          alt=""
+          className="obesity-image"
+        />
         <div className="obesity-div">
           <p className="obesity-div-title">Diagnosing and Treating RSV</p>
           <p className="obesity-div-desc">
@@ -37,7 +45,11 @@ export default function RSVArticleBody(props) {
         </div>
       </Row>
       <Row id="obesityarticle-row-three">
-        <img src="/rsv_article_image_3.svg" alt="" className="obesity-image" />
+        <img
+          src="/images/rsv_article_image_3.svg"
+          alt=""
+          className="obesity-image"
+        />
         <div className="obesity-div">
           <p className="obesity-div-title">
             Preventing RSV in Children and Infants

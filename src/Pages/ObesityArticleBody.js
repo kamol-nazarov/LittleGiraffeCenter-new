@@ -6,7 +6,7 @@ export default function ObesityArticleBody(props) {
       <p id="obesityarticle-title">Childhood Obesity</p>
       <Row id="obesityarticle-row-one">
         <img
-          src="/childhood_obesity_image_1.svg"
+          src="/images/childhood_obesity_image_1.svg"
           alt=""
           className="obesity-image"
         />
@@ -26,7 +26,7 @@ export default function ObesityArticleBody(props) {
       </Row>
       <Row id="obesityarticle-row-two">
         <img
-          src="/childhood_obesity_image_2.svg"
+          src="/images/childhood_obesity_image_2.svg"
           alt=""
           className="obesity-image"
         />
@@ -49,7 +49,7 @@ export default function ObesityArticleBody(props) {
       </Row>
       <Row id="obesityarticle-row-three">
         <img
-          src="/childhood_obesity_image_3.svg"
+          src="/images/childhood_obesity_image_3.svg"
           alt=""
           className="obesity-image"
         />

@@ -15,7 +15,7 @@ export default function HomePageBody(props) {
           <Carousel.Item className="carousel-item">
             <img
               className="d-block w-100"
-              src="/carousel_image_one.svg"
+              src="/images/carousel_image_one.svg"
               alt="First slide"
             />
             <Carousel.Caption className="carousel-caption">
@@ -39,7 +39,7 @@ export default function HomePageBody(props) {
           <Carousel.Item className="carousel-item">
             <img
               className="d-block w-100"
-              src="/carousel_image_two.svg"
+              src="/images/carousel_image_two.svg"
               alt="First slide"
             />
             <Carousel.Caption className="carousel-caption">
@@ -62,7 +62,7 @@ export default function HomePageBody(props) {
           <Carousel.Item className="carousel-item">
             <img
               className="d-block w-100"
-              src="/carousel_image_three.svg"
+              src="/images/carousel_image_three.svg"
               alt="First slide"
             />
             <Carousel.Caption className="carousel-caption">
@@ -85,7 +85,7 @@ export default function HomePageBody(props) {
           <Carousel.Item className="carousel-item">
             <img
               className="d-block w-100"
-              src="/carousel_image_four.svg"
+              src="/images/carousel_image_four.svg"
               alt="First slide"
             />
             <Carousel.Caption className="carousel-caption">
@@ -108,7 +108,7 @@ export default function HomePageBody(props) {
           <Carousel.Item className="carousel-item">
             <img
               className="d-block w-100"
-              src="/carousel_image_five.svg"
+              src="/images/carousel_image_five.svg"
               alt="First slide"
             />
             <Carousel.Caption className="carousel-caption">
@@ -139,7 +139,11 @@ export default function HomePageBody(props) {
       <Row id="agerange-row">
         <Col>
           <Card className="age-card">
-            <Card.Img variant="top" src="/woman.svg" className="age-image" />
+            <Card.Img
+              variant="top"
+              src="/icons/woman.svg"
+              className="age-image"
+            />
             <Card.Body className="age-body">
               <Card.Title className="age-title">Prenatel</Card.Title>
             </Card.Body>
@@ -147,7 +151,11 @@ export default function HomePageBody(props) {
         </Col>
         <Col>
           <Card className="age-card">
-            <Card.Img variant="top" src="/baby.svg" className="age-image" />
+            <Card.Img
+              variant="top"
+              src="/icons/baby.svg"
+              className="age-image"
+            />
             <Card.Body className="age-body">
               <Card.Title className="age-title">Baby</Card.Title>
             </Card.Body>
@@ -155,7 +163,11 @@ export default function HomePageBody(props) {
         </Col>
         <Col>
           <Card className="age-card">
-            <Card.Img variant="top" src="/baby-boy.svg" className="age-image" />
+            <Card.Img
+              variant="top"
+              src="/icons/baby-boy.svg"
+              className="age-image"
+            />
             <Card.Body className="age-body">
               <Card.Title className="age-title">Toddler</Card.Title>
             </Card.Body>
@@ -163,7 +175,11 @@ export default function HomePageBody(props) {
         </Col>
         <Col>
           <Card className="age-card">
-            <Card.Img variant="top" src="/abacus.svg" className="age-image" />
+            <Card.Img
+              variant="top"
+              src="/icons/abacus.svg"
+              className="age-image"
+            />
             <Card.Body className="age-body">
               <Card.Title className="age-title">Preschool</Card.Title>
             </Card.Body>
@@ -171,7 +187,11 @@ export default function HomePageBody(props) {
         </Col>
         <Col>
           <Card className="age-card">
-            <Card.Img variant="top" src="/write.svg" className="age-image" />
+            <Card.Img
+              variant="top"
+              src="/icons/write.svg"
+              className="age-image"
+            />
             <Card.Body className="age-body">
               <Card.Title className="age-title">Grade School</Card.Title>
             </Card.Body>
@@ -179,7 +199,11 @@ export default function HomePageBody(props) {
         </Col>
         <Col>
           <Card className="age-card">
-            <Card.Img variant="top" src="/teen.svg" className="age-image" />
+            <Card.Img
+              variant="top"
+              src="/icons/teen.svg"
+              className="age-image"
+            />
             <Card.Body className="age-body">
               <Card.Title className="age-title">Teen</Card.Title>
             </Card.Body>
@@ -187,7 +211,11 @@ export default function HomePageBody(props) {
         </Col>
         <Col>
           <Card className="age-card">
-            <Card.Img variant="top" src="/female.svg" className="age-image" />
+            <Card.Img
+              variant="top"
+              src="/icons/female.svg"
+              className="age-image"
+            />
             <Card.Body className="age-body">
               <Card.Title className="age-title">Young Adult</Card.Title>
             </Card.Body>
@@ -204,7 +232,7 @@ export default function HomePageBody(props) {
           <Card className="articles-card">
             <Card.Img
               variant="top"
-              src="/covid-19.svg"
+              src="/icons/covid-19.svg"
               className="articles-image"
             />
             <Card.Body className="articles-body">
@@ -214,7 +242,11 @@ export default function HomePageBody(props) {
         </Col>
         <Col>
           <Card className="articles-card">
-            <Card.Img variant="top" src="/gun.svg" className="articles-image" />
+            <Card.Img
+              variant="top"
+              src="/icons/gun.svg"
+              className="articles-image"
+            />
             <Card.Body className="articles-body">
               <Card.Title className="articles-title">Guns At Home</Card.Title>
             </Card.Body>
@@ -222,7 +254,11 @@ export default function HomePageBody(props) {
         </Col>
         <Col>
           <Card className="articles-card">
-            <Card.Img variant="top" src="/man.svg" className="articles-image" />
+            <Card.Img
+              variant="top"
+              src="/icons/man.svg"
+              className="articles-image"
+            />
             <Card.Body className="articles-body">
               <Card.Title className="articles-title">
                 Long Haul COVID
@@ -234,7 +270,7 @@ export default function HomePageBody(props) {
           <Card className="articles-card">
             <Card.Img
               variant="top"
-              src="/sick_baby.svg"
+              src="/icons/sick_baby.svg"
               className="articles-image"
             />
             <Card.Body className="articles-body">
@@ -246,7 +282,7 @@ export default function HomePageBody(props) {
           <Card className="articles-card">
             <Card.Img
               variant="top"
-              src="/hotel.svg"
+              src="/icons/hotel.svg"
               className="articles-image"
             />
             <Card.Body className="articles-body">
@@ -258,7 +294,7 @@ export default function HomePageBody(props) {
           <Card className="articles-card">
             <Card.Img
               variant="top"
-              src="/sore-throat.svg"
+              src="/icons/sore-throat.svg"
               className="articles-image"
             />
             <Card.Body className="articles-body">
@@ -270,7 +306,7 @@ export default function HomePageBody(props) {
           <Card className="articles-card">
             <Card.Img
               variant="top"
-              src="/stress.svg"
+              src="/icons/stress.svg"
               className="articles-image"
             />
             <Card.Body className="articles-body">

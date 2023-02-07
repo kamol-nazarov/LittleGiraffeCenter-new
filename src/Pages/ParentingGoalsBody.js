@@ -6,7 +6,7 @@ export default function ParentingGoalsBody(props) {
       <p id="obesityarticle-title">Parenting Goals For The New Year!</p>
       <Row id="obesityarticle-row-one">
         <img
-          src="/parenting_goals_image_1.svg"
+          src="/images/parenting_goals_image_1.svg"
           alt=""
           className="obesity-image"
         />
@@ -26,7 +26,7 @@ export default function ParentingGoalsBody(props) {
       </Row>
       <Row id="obesityarticle-row-two">
         <img
-          src="/parenting_goals_image_2.svg"
+          src="/images/parenting_goals_image_2.svg"
           alt=""
           className="obesity-image"
         />
@@ -45,7 +45,7 @@ export default function ParentingGoalsBody(props) {
       </Row>
       <Row id="obesityarticle-row-three">
         <img
-          src="/parenting_goals_image_3.svg"
+          src="/images/parenting_goals_image_3.svg"
           alt=""
           className="obesity-image"
         />

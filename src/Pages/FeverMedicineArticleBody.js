@@ -6,7 +6,7 @@ export default function FeverMedicineArticleBody(props) {
       <p id="obesityarticle-title">Sudden Cardiac Arrest In Young People</p>
       <Row id="obesityarticle-row-one">
         <img
-          src="/cardiac_arrest_image_1.svg"
+          src="/images/cardiac_arrest_image_1.svg"
           alt=""
           className="obesity-image"
         />
@@ -27,7 +27,7 @@ export default function FeverMedicineArticleBody(props) {
       </Row>
       <Row id="obesityarticle-row-two">
         <img
-          src="/cardiac_arrest_image_2.svg"
+          src="/images/cardiac_arrest_image_2.svg"
           alt=""
           className="obesity-image"
         />
@@ -46,7 +46,7 @@ export default function FeverMedicineArticleBody(props) {
       </Row>
       <Row id="obesityarticle-row-three">
         <img
-          src="/cardiac_arrest_image_3.svg"
+          src="/images/cardiac_arrest_image_3.svg"
           alt=""
           className="obesity-image"
         />
